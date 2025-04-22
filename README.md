@@ -27,7 +27,7 @@
   
 |  ID  | Título                    | Descrição                                                                        | 
 | ---- | ------------------------- | ---------------------------------------------------------------------------------| 
-|  01  | Provisionamento Local     | Provisiomamento de VM's Locais com Libvirt                                       |
+|  01  | Bucket S3                 | Provisiomamento de Bucket com o Terraform                                        |
 
 
 
