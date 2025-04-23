@@ -1,0 +1,37 @@
+
+1. mkdir /Terraform && cd /Terraform & vi main.tf 
+
+     provider "aws" {
+       region = "us-east-1"
+       access_key = ""
+       secret_key = ""
+       token = ""
+     }
+     
+     resource "aws_instance" "book_instance" {
+       ami           = "ami-084568db4383264d4"
+       instance_type = "t2.micro"
+       tags = {
+         Name = "CloudOptic-Instance"
+       }
+     }
+     
+     resource "aws_s3_bucket" "book_bucket" {
+       bucket = "cloudoptic-bucket-220420252115"
+       acl    = "private"
+       tags = {
+         Environment = "Dev"
+       }
+     }
+     
+     variable "region" {
+       default = "us-east-1"
+     }
+     
+     output "instance_public_ip" {
+       value = aws_instance.book_instance.public_ip
+     }
+
+2. terraform init && terraform plan && terraform --auto-approve 
+
+3. terraform destroy 
