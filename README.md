@@ -28,8 +28,8 @@
 |  ID  | Título                    | Descrição                                                                        | 
 | ---- | ------------------------- | ---------------------------------------------------------------------------------| 
 |  01  | Bucket S3                 | Provisiomamento de Bucket com o Terraform                                        |
-|  01  | Instância + Bucket        | Provisiomamento de Bucket e EC2, com saída do IP Público                         |
-
+|  02  | Instância + Bucket        | Provisiomamento de Bucket e EC2, com saída do IP Público                         |
+|  03  | RDS - MySQL               | Provisiomamento de um banco de dados MySQL                                       |
 
 
 
