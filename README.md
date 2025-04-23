@@ -30,7 +30,7 @@
 |  01  | Bucket S3                 | Provisiomamento de Bucket com o Terraform                                        |
 |  02  | Instância + Bucket        | Provisiomamento de Bucket e EC2, com saída do IP Público                         |
 |  03  | RDS - MySQL               | Provisiomamento de um banco de dados MySQL                                       |
-
+|  04  | Variaveis                 | Provisiomamento EC2 e RDS com Variáveis                                          |
 
 
 </div> 
