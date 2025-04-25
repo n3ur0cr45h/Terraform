@@ -31,7 +31,7 @@
 |  02  | Instância + Bucket        | Provisiomamento de Bucket e EC2, com saída do IP Público                         |
 |  03  | RDS - MySQL               | Provisiomamento de um banco de dados MySQL                                       |
 |  04  | Variaveis                 | Provisiomamento EC2 e RDS com Variáveis                                          |
-
+|  05  | Backend                   | Realizar a troca de Backend                                                      |
 
 </div> 
 </details>
