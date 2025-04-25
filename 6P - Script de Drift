@@ -1,0 +1,22 @@
+
+#!/bin/bash
+# Ir até o WorkSpace
+  cd /path/to/cloudoptic/terraform/workspace
+
+# Atualizar terraform local 
+  terraform refresh
+
+# Rodar plan e logar
+  terraform plan -out=plan.out
+
+# Verificação de Drift
+  if grep -q "0 to add, 0 to change, 0 to destroy" plan.out; then
+
+  echo "Não há Drift"
+
+  else
+
+  echo "Drift Detectado - Verificar Terraform plan."
+
+# Apagar plan.out
+  rm plan.out
