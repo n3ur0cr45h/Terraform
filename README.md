@@ -32,6 +32,7 @@
 |  03  | RDS - MySQL               | Provisiomamento de um banco de dados MySQL                                       |
 |  04  | Variaveis                 | Provisiomamento EC2 e RDS com Variáveis                                          |
 |  05  | Backend                   | Realizar a troca de Backend                                                      |
+|  06  | Drift                     | Shell para verificação de mudanças na configuração do workspace                  |
 
 </div> 
 </details>
