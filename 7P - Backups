@@ -1,0 +1,18 @@
+
+1. Para Backups Locais, existem três métodos: 
+
+  1.1. Cópia Manual 
+       Copiar os arquivos .tfstate à um diretório seguro; 
+  
+  1.2. Controle de Versionamento 
+       Usar o Git para registrar mudanças no .tfstate 
+       Obs.: Ainda é possível criptografar o arquivo antes de enviar ao repositório 
+
+  1.3. Scripts
+       Um script bash ou python, agendado com intervalores regulares para copiar o .tfstate 
+
+2. Backups em Nuvem 
+
+  2.1. Terraform Cloud 
+
+  2.2. Consul 
