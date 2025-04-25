@@ -33,6 +33,7 @@
 |  04  | Variaveis                 | Provisiomamento EC2 e RDS com Variáveis                                          |
 |  05  | Backend                   | Realizar a troca de Backend                                                      |
 |  06  | Drift                     | Shell para verificação de mudanças na configuração do workspace                  |
+|  07  | Backups                   | Formas de Realizar Backup do Terraform (.tfstate)                                |
 
 </div> 
 </details>
