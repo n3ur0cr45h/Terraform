@@ -1,0 +1,16 @@
+
+1. vi main.tf 
+
+     terraform {
+       backend "remote" {
+         hostname     = "app.terraform.io"
+         organization = "my-org"
+         workspaces {
+           name = "my-workspace"
+         }
+       }
+     }
+
+2. terraform init (Para visualizar se teve mudança de backend)
+
+3. terraform init -migrate-state (Para de fato migrar de Backend) 
