@@ -34,7 +34,7 @@
 |  05  | Backend                   | Realizar a troca de Backend                                                      |
 |  06  | Drift                     | Shell para verificação de mudanças na configuração do workspace                  |
 |  07  | Backups                   | Formas de Realizar Backup do Terraform (.tfstate)                                |
-|  08  | Endereçamento de Recursos | Testar a criação de uma VPC com enderaçamento de SG                              |
+|  08  | Endereçamento de Recursos | Testar a criação de uma VPC com endereçamento de SG                              |
 
 </div> 
 </details>
