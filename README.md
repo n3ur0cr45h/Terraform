@@ -35,7 +35,8 @@
 |  06  | Drift                     | Shell para verificação de mudanças na configuração do workspace                  |
 |  07  | Backups                   | Formas de Realizar Backup do Terraform (.tfstate)                                |
 |  08  | Endereçamento de Recursos | Testar a criação de uma VPC com endereçamento de SG                              |
-|  09  | Dados                     | Utilização de dados no Provisionamento de Recursos                              |
+|  09  | Dados                     | Utilização de dados no Provisionamento de Recursos                               |
+|  10  | Funções                   | Funções do Terraform                                                             | 
 
 </div> 
 </details>
