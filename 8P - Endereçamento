@@ -1,0 +1,22 @@
+
+1. vi main.tf
+
+      provider "aws" {
+       region     = ""
+       access_key = ""
+       secret_key = ""
+       token      = ""
+     }
+     resource "aws_vpc" "cloudoptic_vpc" {
+       cidr_block = "10.0.0.0/16"
+     }
+     
+     resource "aws_security_group" "cloudoptic_sg" {
+       name        = "cloudoptic-sg-teste"
+       description = "Livro de Ensinamentos sobre Terraform"
+       vpc_id      = aws_vpc.cloudoptic_vpc.id
+     }
+
+2. terraform plan
+
+3. terraform apply --auto-approve 
