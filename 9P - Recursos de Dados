@@ -1,0 +1,28 @@
+
+1. vi main.tf
+
+     provider "aws" {
+        region     = "us-east-1"
+        access_key = ""
+        secret_key = ""
+        token      = ""
+      }
+	 
+	 data "aws_ami" "teste_ami" {  -- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami
+       most_recent = true
+       owners      = ["amazon"]
+     
+     }
+     
+     output "aws_ami_teste"{
+       value = data.aws_ami.teste_ami
+     }
+     
+     resource "aws_instance" "instancia_teste" {
+       ami = data.aws_ami.teste_ami.id
+       instance_type = "t2.micro"
+     }
+
+2. terraform plan 
+
+3. terraform apply --auto-approve
