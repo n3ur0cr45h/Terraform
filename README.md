@@ -37,7 +37,7 @@
 |  08  | Endereçamento de Recursos | Testar a criação de uma VPC com endereçamento de SG                              |
 |  09  | Dados                     | Utilização de dados no Provisionamento de Recursos                               |
 |  10  | Funções                   | Funções do Terraform                                                             | 
-
+|  11  | Docker                    | Provisionando um Container com Docker                                            | 
 </div> 
 </details>
 
